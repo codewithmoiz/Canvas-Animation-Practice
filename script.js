@@ -12,7 +12,7 @@
 
         for(var i = 1; i <= frames.maxFrames; i++){
 
-            let imageURL = `/Images/frame_${i.toString().padStart(4, 0)}.jpg`;
+            let imageURL = `./images/frame_${i.toString().padStart(4, 0)}.jpg`;
             let image = new Image();
             image.src = imageURL;
             image.onload = function() {
